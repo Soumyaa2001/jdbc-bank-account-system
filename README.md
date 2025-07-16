@@ -8,24 +8,23 @@ A Java banking system using JDBC and MySQL with layered architecture (DAO patter
 A complete banking system implementation using **Java JDBC** with **MySQL** database following **DAO (Data Access Object) pattern** with layered architecture.
 
 ## 🏗️ Project Structure
-src/
-├── main/
-│ ├── java/
-│ │ ├── com/wipro/
-│ │ │ ├── dao/ # Data Access Layer
-│ │ │ │ ├── BankAccountDao.java (Interface)
-│ │ │ │ └── BankAccountImpl.java (Implementation)
-│ │ │ ├── model/ # Entity Layer
-│ │ │ │ └── BankAccount.java
-│ │ │ ├── util/ # Utility Layer
-│ │ │ │ ├── DatabaseConnection.java
-│ │ │ │ └── DBPropertiesFile.java
-│ │ │ └── main/ # Application Entry
-│ │ │ └── BankMain.java
-│ └── resources/
-│ └── db.properties # DB Configuration
 
-text
+ - src/
+  - main/
+    - java/
+      - com/wipro/
+        - dao/ (Data Access Layer)
+          - BankAccountDao.java (Interface)
+          - BankAccountImpl.java (Implementation)
+        - model/ (Entity Layer)
+          - BankAccount.java
+        - util/ (Utility Layer)
+          - DatabaseConnection.java
+          - DBPropertiesFile.java
+        - main/ (Application Entry)
+          - BankMain.java
+    - resources/
+      - db.properties (DB Configuration)
 
 ## 🚀 Features
 
