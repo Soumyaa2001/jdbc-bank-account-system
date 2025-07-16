@@ -46,14 +46,6 @@ A complete banking system implementation using **Java JDBC** with **MySQL** data
     - resources/
       - db.properties (DB Configuration)
 
-## 🚀 Features
-
-- ✅ **CRUD Operations** for bank accounts
-- ✅ **Secure DB Connection** management
-- ✅ **Configuration via properties file**
-- ✅ **Layered architecture** (DAO pattern)
-- ✅ **Proper exception handling**
-
 ## 📋 Prerequisites
 
 - Java 17+
